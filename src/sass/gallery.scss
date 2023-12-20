@@ -1,0 +1,21 @@
+@use './utilities/mixins';
+
+
+.gallery{
+    &__img{
+        object-fit: cover;
+        @include mixins.medium-devices{
+            max-height: 200px;
+            min-height: 200px;
+            
+        }
+        @include mixins.xl-devices{
+            max-height: 300px;
+            min-height: 300px;
+        }
+        @include mixins.xxl-devices{
+            max-height: 400px;
+            min-height: 400px;
+        }
+    }
+}
