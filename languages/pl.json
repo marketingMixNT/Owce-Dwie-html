@@ -1,7 +1,21 @@
 {
-    "title": "Startseite",
-    "welcome_message": "Willa",
-    "about_us": "Erfahren Sie mehr über uns und unsere Dienstleistungen.",
-    "footer_text": "© 2023 Ihr Unternehmen. Alle Rechte vorbehalten."
+
+
+    "nav-link--1":"O nas",
+    "nav-link--2":"Pokoje",
+    "room-1":"Rodzinny Pokój Deluxe z Balkonem",
+    "room-2":"Rodzinny Pokój Premiere z Balkonem",
+    "room-3":"Dwuosobowy Pokój Deluxe z Balkonem",
+    "nav-link--3":"Atrakcje",
+    "nav-link--4":"Galeria",
+    "nav-link--5":"Kontakt",
+    "title":"Willa",
+    "subtitle-1":"Twój wymarzony pobyt",
+    "subtitle-2":" zaczyna się tutaj"
+
+
+
+
+   
   }
   

@@ -1,7 +1,14 @@
 {
-    "title": "Home",
-    "welcome_message": "Villa",
-    "about_us": "Learn more about us and our services.",
-    "footer_text": "© 2023 Your Company. All rights reserved."
+  "nav-link--1":"About",
+  "nav-link--2":"Rooms",
+  "room-1":"Family room deluxe with balcony",
+  "room-2":"Double room deluxe with balcony",
+  "room-3":"Family room premiere with balcony",
+  "nav-link--3":"Attractions",
+  "nav-link--4":"Gallery",
+  "nav-link--5":"Contact",
+  "title":"Villa",
+  "subtitle-1":"Holidays of your dreams",
+  "subtitle-2":" start here"
   }
   
