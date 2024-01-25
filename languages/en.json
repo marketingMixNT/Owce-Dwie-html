@@ -1,4 +1,7 @@
 {
+  "index-title":"Holidays of your dreams start here – discover pleasure in every detail",
+
+
   "nav-link--1":"About",
   "nav-link--2":"Rooms",
   "room-1":"Family room deluxe with balcony",
@@ -7,8 +10,21 @@
   "nav-link--3":"Attractions",
   "nav-link--4":"Gallery",
   "nav-link--5":"Contact",
+
   "title":"Villa",
   "subtitle-1":"Holidays of your dreams",
-  "subtitle-2":" start here"
+  "subtitle-2":" start here",
+
+  "index-rooms--title":"Rooms",
+    "index-rooms":"In our facility you will find 12 cozy rooms with separate bathrooms, ensuring exceptional comfort during your stay. The location of our place makes it an excellent base for mountain adventures. Professional staff is ready to take care of every detail of your stay, ensuring an unforgettable experience.",
+    "person":"persons",
+    "watch":"check",
+    "icon-1":"Free Wi-Fi",
+    "icon-2":"Delicious breakfast",
+    "icon-3":"Free Parking",
+    "icon-4":"Finnish sauna",
+    "icon-5":"Infrared sauna"
+
+  
   }
   
