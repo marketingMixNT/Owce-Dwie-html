@@ -33,30 +33,55 @@ window.addEventListener("scroll", () => {
 });
 
 //COOKIE BAR
+// document.addEventListener("DOMContentLoaded", () => {
+//     const cookieBox = document.querySelector("#cookieBox");
+//     const acceptBtn = document.querySelector("#acceptBtn");
+
+
+
+//     const addCookie = () => {
+//         document.cookie = "Privacy Policy; max-age=" + 60 * 60 * 24 * 30;
+//         checkCookie();
+//         cookieBox.classList.add("hidden");
+//     };
+
+//     const checkCookie = () => {
+//         if (cookieBox && document.cookie.indexOf("Privacy Policy") !== -1) {
+//             cookieBox.classList.add("hidden");
+//         } else if (cookieBox) {
+//             cookieBox.classList.remove("hidden");
+//         }
+//     };
+
+//     checkCookie();
+
+   
+//         acceptBtn.addEventListener("click", addCookie);
+    
+
+// });
 document.addEventListener("DOMContentLoaded", () => {
     const cookieBox = document.querySelector("#cookieBox");
     const acceptBtn = document.querySelector("#acceptBtn");
 
-    const addCookie = () => {
-        document.cookie = "Privacy Policy; max-age=" + 60 * 60 * 24 * 30;
-        checkCookie();
+    const addLocalStorageItem = () => {
+        localStorage.setItem("userConsent", "true");
+        checkLocalStorage();
+        cookieBox.classList.add("hidden");
     };
 
-    const checkCookie = () => {
-        if (cookieBox && document.cookie.indexOf("Privacy Policy") !== -1) {
+    const checkLocalStorage = () => {
+        if (cookieBox && localStorage.getItem("userConsent") === "true") {
             cookieBox.classList.add("hidden");
         } else if (cookieBox) {
             cookieBox.classList.remove("hidden");
         }
     };
 
-    checkCookie();
+    checkLocalStorage();
 
-    if (acceptBtn) {
-        acceptBtn.addEventListener("click", addCookie);
-    }
+    acceptBtn.addEventListener("click", addLocalStorageItem);
 });
-
 
 //GALLERY 
 const filterItem = document.querySelector('.items-links');
@@ -118,3 +143,47 @@ if (filterItem && filterImages.length > 0) {
         });
     });
 }
+
+
+
+
+ // Function to fetch language data
+ async function fetchLanguageData(lang) {
+    const response = await fetch(`languages/${lang}.json`);
+    return response.json();
+  }
+  
+  // Function to set the language preference
+  function setLanguagePreference(lang) {
+    localStorage.setItem('language', lang);
+    location.reload();
+  }
+  
+  // Function to update content based on selected language
+  function updateContent(langData) {
+    document.querySelectorAll('[data-i18n]').forEach(element => {
+      const key = element.getAttribute('data-i18n');
+      element.textContent = langData[key];
+    });
+  }
+  
+  // Function to change language
+  async function changeLanguage(lang) {
+    await setLanguagePreference(lang);
+    
+    const langData = await fetchLanguageData(lang);
+    updateContent(langData);
+
+  }
+
+
+  
+  
+  // Call updateContent() on page load
+  window.addEventListener('DOMContentLoaded', async () => {
+    const userPreferredLanguage = localStorage.getItem('language') || 'en';
+    const langData = await fetchLanguageData(userPreferredLanguage);
+    updateContent(langData);
+  });
+
+
