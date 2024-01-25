@@ -1,6 +1,7 @@
 {
 "index-title":"Willa Owce Dwie - Twój wymarzony pobyt zaczyna się tutaj",
 "index-about-title":"O nas | Willa Owce Dwie - Twój wymarzony pobyt zaczyna się tutaj",
+"index-rooms-title":"Nasze Pokoje | Willa Owce Dwie - Twój wymarzony pobyt zaczyna się tutaj",
 
 
     "nav-link--1":"O nas",
@@ -55,7 +56,13 @@
 "about-p-1":"Willa Owce Dwie to niezwykłe miejsce, w którym tradycja spotyka się z nowoczesnością, tworząc atmosferę pełną komfortu i relaksu. Położona w otoczeniu szlaków, tuż obok Skoczni, willa oferuje niezapomniane widoki, które zaspokoją nawet najbardziej wymagających Gości.",
 "about-p-2":"Wnętrza Willi Owce Dwie to harmonijne połączenie nowoczesnego designu z elementami charakterystycznymi dla stylu góralskiego. Starannie dobrany wystrój sprawia, że każdy detal oddaje unikalny urok tego miejsca. Codziennie nasz zaangażowany personel dba o to, aby nasi Goście doświadczali pełni relaksu i satysfakcji podczas pobytu.",
 "about-p-3":"Ponadto, każdego dnia zapewniamy naszym Gościom urozmaicone śniadania, dostosowane do różnorodnych gustów i preferencji. Owce Dwie nie tylko zapewniają wyjątkowe doświadczenie wizualne, ale również kulinarną przyjemność, dbając o zaspokojenie podniebienia każdego Gościa.",
-"about-p-4":"Willa Owce Dwie to miejsce, gdzie tradycja, piękno przyrody i nowoczesność łączą się, tworząc niepowtarzalną atmosferę idealną do wypoczynku i relaksu."
+"about-p-4":"Willa Owce Dwie to miejsce, gdzie tradycja, piękno przyrody i nowoczesność łączą się, tworząc niepowtarzalną atmosferę idealną do wypoczynku i relaksu.",
+
+
+"rooms-title":"Pokoje",
+"rooms-desc":"Wyposażony jest w dwuosobowe łóżko, rozkładaną sofę, szafę, biurko, tv, sejf i łazienkę z prysznicem.",
+"rooms-desc-2":"Wyposażony jest w dwuosobowe łóżko, szafę, biurko, tv, sejf i łazienkę z prysznicem.",
+"check":"zobacz"
 
 
   }

@@ -1,13 +1,14 @@
 {
   "index-title":"Holidays of your dreams start here – discover pleasure in every detail",
   "index-about-title":"About us | Villa Owce Dwa - Your dream stay starts here",
+  "index-rooms-title":"Our Rooms | Villa Owce Dwa - Your dream stay starts here",
 
 
   "nav-link--1":"About",
   "nav-link--2":"Rooms",
   "room-1":"Family room deluxe with balcony",
-  "room-2":"Double room deluxe with balcony",
-  "room-3":"Family room premiere with balcony",
+  "room-2":"Family room premiere with balcony",
+  "room-3":"Double room deluxe with balcony",
   "nav-link--3":"Attractions",
   "nav-link--4":"Gallery",
   "nav-link--5":"Contact",
@@ -55,8 +56,12 @@
 "about-p-1":"Villa Owce Dwie (Two Sheep) is an unusual place where tradition meets modernity and creates an atmosphere filled with comfort and relaxation. Located near tourist trails and next to the ski jumps the villa offers unforgettable views to meet the requirements of most demanding guests.",
 "about-p-2":"The interior of the villa is a harmonious combination of modern design with elements of highlander style. Carefully selected décor makes every detail speak of the unique charm of this place. Our dedicated staff always looks after our guests’ pleasure and satisfaction.",
 "about-p-3":"Every morning there is a varied breakfast to meet all tastes and preferences. Owce dwie ensures both visual and culinary pleasures by catering for every palate. ",
-"about-p-4":"Villa Owce Dwie is a place where tradition, beautiful nature and modernity meet to  create unique atmosphere for ideal rest and relaxation."
+"about-p-4":"Villa Owce Dwie is a place where tradition, beautiful nature and modernity meet to  create unique atmosphere for ideal rest and relaxation.",
 
+"rooms-title":"Rooms",
+"rooms-desc":"It is equipped with a double bed, a sofa bed, a wardrobe, a desk, a TV, a safe and a bathroom with a shower.",
+"rooms-desc-2":"It is equipped with a double bed, wardrobe, desk, TV, safe and bathroom with shower.",
+"check":"Check"
 
   }
   
