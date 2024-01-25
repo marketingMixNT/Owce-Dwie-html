@@ -1,5 +1,7 @@
 {
 "index-title":"Willa Owce Dwie - Twój wymarzony pobyt zaczyna się tutaj",
+"index-about-title":"O nas | Willa Owce Dwie - Twój wymarzony pobyt zaczyna się tutaj",
+
 
     "nav-link--1":"O nas",
     "nav-link--2":"Pokoje",
@@ -22,12 +24,39 @@
     "icon-2":"Śniadanie w formie bufetu",
     "icon-3":"Darmowy parking",
     "icon-4":"Sauna fińska",
-    "icon-5":"Sauna infared"
+    "icon-5":"Sauna infared",
     
+"index-about--title":"O nas",
+"index-about":"Willa Owce Dwie to niezwykłe miejsce, w którym tradycja spotyka się z nowoczesnością, tworząc atmosferę pełną komfortu i relaksu. Położona w otoczeniu szlaków, tuż obok Skoczni, willa oferuje niezapomniane widoki, które zaspokoją nawet najbardziej wymagających Gości.",
+"find-out-more":"Dowiedz się więcej",
+
+"index-hero--title":"Twój wymarzony pobyt zaczyna się tutaj - odkryj przyjemność w każdym detalu",
+"reservation":"zarezerwuj",
+
+"index-attractions--title":"Atrakcje",
+"attraction-1--title":"Wielka Krokiew",
+"attraction-1--desc": "Wielka Krokiew to jedna z najbardziej charakterystycznych atrakcji w Zakopanem, znana zarówno miłośnikom sportów zimowych, jak i turystom z całego świata. Jest to skocznia narciarska, która zyskała sławę nie tylko ze względu na swoją architekturę, ale także jako miejsce prestiżowych zawodów i widowiskowych skoków narciarskich.",
+"attraction-2--title":"Kasprowy Wierch",
+"attraction-2--desc": "Kasprowy Wierch to jeden z najwyższych szczytów Tatr Zachodnich. Znajduje się na granicy polsko-słowackiej i oferuje imponujące widoki na obie strony. Szczyt jest dostępny zarówno pieszo, korzystając z szlaków górskich, jak i za pomocą kolei linowej z Kuźnic.",
+"attraction-3--title":"Kuźnice",
+"attraction-3--desc": "Kuźnice, a dawniej Hamry, to miejsce gdzie do 1878 r. działały huty żelaza i kuźnie. Rudę żelazną wydobywano głównie pod Kopą Magury w Dolinie Jaworzynki. Właściciele Kuźnic, rodzina Homolacsów, wybudowali tutaj dwór, w którym podejmowali naukowców, artystów, polityków. Obecnie Kuźnice znane są przede wszystkim z dolnej stacji kolejki na Kasprowy Wierch.",
+
+"gallery":"galeria",
+"check-gallery":"zobacz wszystkie zdjęcia",
+
+"address":"Adres",
+"contact":"Kontakt",
+"created":"Wykonanie ",
+
+"about-title":"O nas",
+"about-title-2":"Witaj na stronie Owce Dwie"  ,
+"about-subtitle-1":"Twój wymarzony pobyt zaczyna się tutaj.",
+"about-subtitle-2":"Odkryj przyjemność w każdym detalu.",
+"about-p-1":"Willa Owce Dwie to niezwykłe miejsce, w którym tradycja spotyka się z nowoczesnością, tworząc atmosferę pełną komfortu i relaksu. Położona w otoczeniu szlaków, tuż obok Skoczni, willa oferuje niezapomniane widoki, które zaspokoją nawet najbardziej wymagających Gości.",
+"about-p-2":"Wnętrza Willi Owce Dwie to harmonijne połączenie nowoczesnego designu z elementami charakterystycznymi dla stylu góralskiego. Starannie dobrany wystrój sprawia, że każdy detal oddaje unikalny urok tego miejsca. Codziennie nasz zaangażowany personel dba o to, aby nasi Goście doświadczali pełni relaksu i satysfakcji podczas pobytu.",
+"about-p-3":"Ponadto, każdego dnia zapewniamy naszym Gościom urozmaicone śniadania, dostosowane do różnorodnych gustów i preferencji. Owce Dwie nie tylko zapewniają wyjątkowe doświadczenie wizualne, ale również kulinarną przyjemność, dbając o zaspokojenie podniebienia każdego Gościa.",
+"about-p-4":"Willa Owce Dwie to miejsce, gdzie tradycja, piękno przyrody i nowoczesność łączą się, tworząc niepowtarzalną atmosferę idealną do wypoczynku i relaksu."
 
 
-
-
-   
   }
   

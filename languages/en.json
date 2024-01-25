@@ -1,5 +1,6 @@
 {
   "index-title":"Holidays of your dreams start here – discover pleasure in every detail",
+  "index-about-title":"About us | Villa Owce Dwa - Your dream stay starts here",
 
 
   "nav-link--1":"About",
@@ -23,8 +24,39 @@
     "icon-2":"Delicious breakfast",
     "icon-3":"Free Parking",
     "icon-4":"Finnish sauna",
-    "icon-5":"Infrared sauna"
+    "icon-5":"Infrared sauna",
 
-  
+    "index-about--title":"About us",
+"index-about":"Villa Owce Dwie (Two Sheep) is an unusual place where tradition meets modernity and creates an atmosphere filled with comfort and relaxation. Located near tourist trails and next to the ski jumps the villa offers unforgettable views to meet the requirements of most demanding guests. ",
+"find-out-more":"Find out more",
+
+"index-hero--title":"Holidays of your dreams start here – discover pleasure in every detail",
+"reservation":"Reservation",
+
+"index-attractions--title":"Attractions",
+"attraction-1--title":"Wielka Krokiew ski jump",
+"attraction-1--desc": "Wielka Krokiew is one of the most characteristic attractions in Zakopane, well known both to winter sports lovers and tourists from all over the world. It has gained its fame thanks to its  architecture and as a site of prestigious skiing competitions.",
+"attraction-2--title":"Kasprowy Wierch",
+"attraction-2--desc": "Kasprowy Wierch is one of the highest peaks of the Western Tatras. It is located on the Polish-Slovak border and offers  spectacular views to the both sides. The mountain is accessible on foot and by cable car from Kuźnice.",
+"attraction-3--title":"Kuźnice",
+"attraction-3--desc": "There were iron works in Kuźnice, former Hamry, until 1978. Iron ore was obtained mainly from Kopa Magury in the nearby Jaworzynka Valley. The owners of Kuźnice, the Homolacs, had a mansion built there where they received artists, scientists and politicians. Currently Kuźnice is well known mostly for its Kasprowy Wierch cable car station",
+
+"gallery":"gallery",
+"check-gallery":"see all photos",
+
+"address":"Address",
+"contact":"Contact",
+"created":"Created by ",
+
+"about-title":"About us",
+"about-title-2":"Welcome to Owce Dwie website"  ,
+"about-subtitle-1":"Holidays of your dreams start here.",
+"about-subtitle-2":"Discover pleasure in every detail.",
+"about-p-1":"Villa Owce Dwie (Two Sheep) is an unusual place where tradition meets modernity and creates an atmosphere filled with comfort and relaxation. Located near tourist trails and next to the ski jumps the villa offers unforgettable views to meet the requirements of most demanding guests.",
+"about-p-2":"The interior of the villa is a harmonious combination of modern design with elements of highlander style. Carefully selected décor makes every detail speak of the unique charm of this place. Our dedicated staff always looks after our guests’ pleasure and satisfaction.",
+"about-p-3":"Every morning there is a varied breakfast to meet all tastes and preferences. Owce dwie ensures both visual and culinary pleasures by catering for every palate. ",
+"about-p-4":"Villa Owce Dwie is a place where tradition, beautiful nature and modernity meet to  create unique atmosphere for ideal rest and relaxation."
+
+
   }
   
