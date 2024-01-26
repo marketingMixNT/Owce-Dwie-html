@@ -160,11 +160,14 @@ if (filterItem && filterImages.length > 0) {
   }
   
   // Function to update content based on selected language
-  function updateContent(langData) {
+function updateContent(langData, lang) {
     document.querySelectorAll('[data-i18n]').forEach(element => {
       const key = element.getAttribute('data-i18n');
       element.textContent = langData[key];
     });
+  
+    // Update the 'lang' attribute of the <html> element
+    document.documentElement.lang = lang;
   }
   
   // Function to change language
@@ -172,18 +175,14 @@ if (filterItem && filterImages.length > 0) {
     await setLanguagePreference(lang);
     
     const langData = await fetchLanguageData(lang);
-    updateContent(langData);
-
+    updateContent(langData, lang);
   }
-
-
-  
   
   // Call updateContent() on page load
   window.addEventListener('DOMContentLoaded', async () => {
     const userPreferredLanguage = localStorage.getItem('language') || 'pl';
     const langData = await fetchLanguageData(userPreferredLanguage);
-    updateContent(langData);
+    updateContent(langData, userPreferredLanguage);
   });
 
 
