@@ -181,7 +181,7 @@ if (filterItem && filterImages.length > 0) {
   
   // Call updateContent() on page load
   window.addEventListener('DOMContentLoaded', async () => {
-    const userPreferredLanguage = localStorage.getItem('language') || 'en';
+    const userPreferredLanguage = localStorage.getItem('language') || 'pl';
     const langData = await fetchLanguageData(userPreferredLanguage);
     updateContent(langData);
   });

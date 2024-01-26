@@ -1,8 +1,13 @@
 {
+  "lang":"en",
+
   "index-title":"Holidays of your dreams start here – discover pleasure in every detail",
   "index-about-title":"About us | Villa Owce Dwa - Your dream stay starts here",
   "index-rooms-title":"Our Rooms | Villa Owce Dwa - Your dream stay starts here",
   "index-gallery-title":"Villa Owce Dwie - Your dream stay starts here",
+  "index-room1-title":"Deluxe Family Room with Balcony | Villa Owce Dwie - Your dreamstay starts here",
+  "index-room2-title":"Premiere Family Room with Balcony | Villa Owce Dwie - Your dreamstay starts here",
+  "index-room3-title":"Double Deluxe Room with Balcony | Villa Owce Dwie - Your dreamstay starts here",
 
 
   "nav-link--1":"About",
@@ -63,6 +68,24 @@
 "rooms-desc":"It is equipped with a double bed, a sofa bed, a wardrobe, a desk, a TV, a safe and a bathroom with a shower.",
 "rooms-desc-2":"It is equipped with a double bed, wardrobe, desk, TV, safe and bathroom with shower.",
 "check":"Check",
+
+
+"numberOfGuests":"Number of Guests",
+"bed":"Bed",
+"double":"Double",
+"sofa":"Sofa",
+"foldable":"Foldable",
+"amenities":"Amenities",
+"safeBox":"Safe Box",
+"bathroomWithShower":"Bathroom with Shower",
+"cupboard":"Cupboard",
+"desk":"Desk",
+"towels":"Towels",
+"flootCovering":"Flat Covering",
+"cosmeticKit":"Cosmetic Kit",
+"coffeeAndTea":"Coffee and Tea Kettle",
+"refrigerator":"Refrigerator",
+"otherRooms":"Other Rooms",
 
 
 
