@@ -2,6 +2,13 @@
 <html lang="pl">
 
 <head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KB59ZFKJ');</script>
+    <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -57,7 +64,12 @@
     data-home-url="index.html">
 
 
-    <div class="hotale-mobile-header-wrap">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KB59ZFKJ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div class="hotale-mobile-header-wrap">
     <div class="hotale-mobile-header hotale-header-background hotale-style-slide hotale-sticky-mobile-navigation nav__mobile" id="hotale-mobile-header" style="padding-top:0;padding-bottom:0">
         <div class="hotale-mobile-header-container hotale-container clearfix">
             <div class="hotale-logo hotale-item-pdlr">
@@ -78,7 +90,21 @@
             <div class="hotale-mobile-menu-right">
                
                 <div class="hotale-mobile-menu" >
+                    <div style="display:flex; justify-content:center;align-items:center">
                     <a class="hotale-mm-menu-button hotale-mobile-menu-button hotale-mobile-button-hamburger hamburger" href="#hotale-mobile-menu"><span></span></a>
+                    <div class="tourmaster-currency-switcher" style="padding:0; padding-top:8px">
+                        <span class="tourmaster-head"><span style="color:white">PL/ENG</span><i class="fa fa-sort-down" style="color:white"></i></span>
+                        <div class="tourmaster-currency-switcher-inner">
+                            <div class="tourmaster-currency-switcher-content">
+                                <ul>
+                                    <li><a href="/" onclick="changeLanguage('pl')">Polski</a></li>
+                                    <li><a href="/" onclick="changeLanguage('en')">English</a></li>
+                                   
+                                  </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                     <div class="hotale-mm-menu-wrap hotale-navigation-font" id="hotale-mobile-menu" data-slide="right" >
                         
                         <ul id="menu-main-navigation" class="m-menu">
@@ -102,7 +128,7 @@
 <li class="menu-ite hotale-normal-menu"><a href="galeria.html" data-i18n="nav-link--4"></a></li>
 
 
-<li class="menu-ite hotale-normal-menu"><a href="kontakt.html" data-i18n="nav-link--5"></a></li>                           <!-- <li class="menu-ite hotale-normal-menu" ><a href="#" >Rezerwacja</a></li> -->
+<li class="menu-ite hotale-normal-menu"><a href="kontakt.html" data-i18n="nav-link--5"></a></li>                           <li class="menu-ite hotale-normal-menu"><a href="https://booking.profitroom.com/pl/owcedwie/home?currency=PLN" data-i18n="nav-link--6" style="font-weight:800"></a></li>
                         </ul>
                     </div>
                 </div>
@@ -238,15 +264,16 @@
 
                 <div class="hotale-main-menu-right-wrap clearfix hotale-item-mglr hotale-navigation-top">
                     <div class="tourmaster-room-navigation-checkout-wrap">
-                        <!-- <a
+                        <a
 id="tourmaster-room-navigation-checkout-button"
 class="tourmaster-room-navigation-checkout-button btn--secondary"
-href="#"
+href="https://booking.profitroom.com/pl/owcedwie/home?currency=PLN"
 data-checkout-label="Check Out"
-data-label="Book Now"
+data-label="Book Now" 
+data-i18n="nav-link--6"
 >
-Zarezerwuj<span class="tourmaster-count">0</span>
-</a> -->
+<span class="tourmaster-count">0</span>
+</a>
 
                     </div>
                 </div>
@@ -560,23 +587,14 @@ Zarezerwuj<span class="tourmaster-count">0</span>
     <div class="footer__container">
         <div class="footer__logo-section">
             <div class="footer__logo">
-                <a href="index.html">
+                <a href="/">
                 <img src="dist/img/assets/logo.png" alt="logo Owce Dwie"></a>
             </div>
             <div class="footer__social">
-                <a href="#" target="_blank" class="hotale-top-bar-social-icon" title="facebook">
+                <a href="https://www.facebook.com/people/Owce-Dwie/61554522129526/" target="_blank" class="hotale-top-bar-social-icon" title="facebook">
                     <i class="fa5b fa5-facebook" style="color:white; margin-right:.5em"></i>
                 </a>
-                <a href="#" target="_blank" class="hotale-top-bar-social-icon" title="linkedin">
-                    <i class="fa5b fa5-linkedin" style="color:white; margin-right:.5em"></i>
-                </a>
-                <a href="#" target="_blank" class="hotale-top-bar-social-icon" title="pinterest">
-                    <i class="fa5b fa5-pinterest-p" style="color:white ;margin-right:.5em"></i>
-                </a>
-                <a href="#" target="_blank" class="hotale-top-bar-social-icon" title="twitter">
-                    <i class="fa5b fa5-twitter" style="color:white; margin-right:.5em"></i>
-                </a>
-                <a href="#" target="_blank" class="hotale-top-bar-social-icon" title="instagram">
+                <a href="https://www.instagram.com/owcedwie.zakopane/?igsh=d2p0M2t3d2c1Znhx" target="_blank" class="hotale-top-bar-social-icon" title="instagram">
                     <i class="fa5b fa5-instagram" style="color:white ;margin-right:.5em"></i>
                 </a>
             </div>
@@ -608,15 +626,39 @@ Zarezerwuj<span class="tourmaster-count">0</span>
 
         <p data-i18n="cookie-bar"></p>
         <div class="cookie-bar__actions">
-            <a href="" target="_blank">Dowiedz się więcej</a>
+            <a href="" target="_blank" data-i18n="find-our-more"></a>
             <button type="button" id="acceptBtn">OK</button>
         </div>
     </div>
-</div>
+</div>    <nav class="bottom-nav_container">
+    
+    <button type="button" aria-label="Rezerwuj" class="bottom-nav_item">
+        <a href="https://booking.profitroom.com/pl/owcedwie/home?currency=PLN" target="_blank" class="bottom-nav_item-link">
+        <img src="../../dist/img/assets/icons/click.svg" alt="">
+        <span>Rezerwuj</span></a>
+    </button>
+    <button type="button" aria-label="Rezerwuj" class="bottom-nav_item">
+        <a href="/galeria.html" class="bottom-nav_item-link">
+        <img src="../../dist/img/assets/icons/gallery.svg" alt="">
+        <span>Galeria</span></a>
+    </button>
+    <button type="button" aria-label="Rezerwuj" class="bottom-nav_item">
+        <a href="https://maps.app.goo.gl/hFicQV2WSACRZLD96" target="_blank" class="bottom-nav_item-link">
+        <img src="../../dist/img/assets/icons/pin.svg" alt="">
+        <span>Lokalizacja</span></a>
+    </button>
+    <button type="button" aria-label="Rezerwuj" class="bottom-nav_item">
+        <a href="tel:+48696770000 " class="bottom-nav_item-link">
+        <img src="../../dist/img/assets/icons/phone.svg" alt="">
+        <span>Kontakt</span></a>
+    </button>
+   
+  
+
+</nav>
 
 
-            
-<script type="text/javascript" src="js/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
+            <script type="text/javascript" src="js/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
 <script type="text/javascript" src="js/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
 <script type="text/javascript" id="snazzymaps-js-js-extra">
     /* <![CDATA[ */
@@ -673,21 +715,25 @@ Zarezerwuj<span class="tourmaster-count">0</span>
     /* ]]> */
 </script>
 <script type="text/javascript" src="js/plugins/tourmaster/tourmaster.js" id="tourmaster-script-js"></script>
-<script type="text/javascript" src="js/plugins/tourmaster/room/tourmaster-room.js" id="tourmaster-room-script-js"></script>
+<script type="text/javascript" src="js/plugins/tourmaster/room/tourmaster-room.js"
+    id="tourmaster-room-script-js"></script>
 <script type="text/javascript" src="js/plugins/jquery.mmenu.js" id="hotale-jquery-mmenu-js"></script>
 <script type="text/javascript" src="js/plugins/jquery.superfish.js" id="hotale-jquery-superfish-js"></script>
 <script type="text/javascript" src="js/plugins/script-core.js" id="hotale-script-core-js"></script>
 <script type="text/javascript" src="js/plugins/jquery.flexslider-min.js"></script>
-<script type="text/javascript" src="js/plugins/goodlayers-core/plugins/script.js?ver=1653819908" id="gdlr-core-plugin-js"></script>
+<script type="text/javascript" src="js/plugins/goodlayers-core/plugins/script.js?ver=1653819908"
+    id="gdlr-core-plugin-js"></script>
 <script type="text/javascript" id="gdlr-core-page-builder-js-extra">
     /* <![CDATA[ */
     var gdlr_core_pbf = { admin: "", video: { width: "640", height: "360" }, ajax_url: "#" };
     /* ]]> */
 </script>
-<script type="text/javascript" src="js/plugins/goodlayers-core/include/js/page-builder.js?ver=1.3.9" id="gdlr-core-page-builder-js"></script>
+<script type="text/javascript" src="js/plugins/goodlayers-core/include/js/page-builder.js?ver=1.3.9"
+    id="gdlr-core-page-builder-js"></script>
 
 
 <script src="dist/js/main.min.js"></script>
+<!-- <script src="https://wis.upperbooking.com/owcedwie/be-panel?locale=pl" async></script> -->
 
 </body>
 

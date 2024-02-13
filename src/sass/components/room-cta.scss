@@ -1,0 +1,44 @@
+@use '../utilities/mixins';
+
+.cta-container {
+	display: flex;
+    flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+    gap:35px;
+	padding-bottom: 35px;
+	background-color: #eeeeee;
+    @include mixins.large-devices {
+        flex-direction: row;
+        gap:0;
+        align-items:center
+       
+    }  
+}
+
+.cta-btn {
+	padding: 4px 15px;
+	background: #bf1e2d;
+	
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	margin: 0;
+	padding: 8px 10px;
+	border: 2px solid #bf1e2d;
+	text-transform: uppercase;
+    cursor:pointer;
+    margin-left:18px;
+    @include mixins.large-devices {
+        margin-right:18px
+       
+    }  
+
+    & a{
+        color: #fff;
+        &:hover{
+            color:gray
+                }
+    }
+    
+}

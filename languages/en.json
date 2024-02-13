@@ -20,6 +20,7 @@
   "nav-link--3":"Attractions",
   "nav-link--4":"Gallery",
   "nav-link--5":"Contact",
+  "nav-link--6":"Book Now",
 
   "title":"Villa",
   "subtitle-1":"Holidays of your dreams",
@@ -50,21 +51,19 @@
 "attraction-3--title":"Kuźnice",
 "attraction-3--desc": "There were iron works in Kuźnice, former Hamry, until 1978. Iron ore was obtained mainly from Kopa Magury in the nearby Jaworzynka Valley. The owners of Kuźnice, the Homolacs, had a mansion built there where they received artists, scientists and politicians. Currently Kuźnice is well known mostly for its Kasprowy Wierch cable car station",
 
-"gallery":"gallery",
+"gallery":"Gallery",
 "check-gallery":"see all photos",
 
 "address":"Address",
 "contact":"Contact",
 "created":"Created by ",
 
-"about-title":"About us",
-"about-title-2":"Welcome to Owce Dwie website"  ,
-"about-subtitle-1":"Holidays of your dreams start here.",
-"about-subtitle-2":"Discover pleasure in every detail.",
-"about-p-1":"Villa Owce Dwie (Two Sheep) is an unusual place where tradition meets modernity and creates an atmosphere filled with comfort and relaxation. Located near tourist trails and next to the ski jumps the villa offers unforgettable views to meet the requirements of most demanding guests.",
-"about-p-2":"The interior of the villa is a harmonious combination of modern design with elements of highlander style. Carefully selected décor makes every detail speak of the unique charm of this place. Our dedicated staff always looks after our guests’ pleasure and satisfaction.",
-"about-p-3":"Every morning there is a varied breakfast to meet all tastes and preferences. Owce dwie ensures both visual and culinary pleasures by catering for every palate. ",
-"about-p-4":"Villa Owce Dwie is a place where tradition, beautiful nature and modernity meet to  create unique atmosphere for ideal rest and relaxation.",
+"about-title-2": "Owce Dwie is a place where tradition meets modernity",
+	
+	"about-p-1": "Wanting to provide the highest quality of services, we make every effort to make our guests feel comfortable every day. We try to take care of every detail to make your stay in Zakopane unforgettable. Our facility is located in a quiet residential district of Zakopane, where you can quickly get to nearby tourist trails and the city center - it's only a 5-minute walk. ",
+	"about-p-2": "The interior of Willa Owce Dwa is a harmonious combination of modern design with elements characteristic of the highland style. Carefully selected design elements give a sense of coherence, warmth and coziness. ",
+	"about-p-3": "Every day, our committed staff makes sure that our guests experience relaxation and peace during their stay at the foot of the Tatra Mountains. Moreover, every day we provide our guests with a varied breakfast buffet, tailored to various tastes and preferences. We make sure that everyone finds something for themselves here and that the day starts tasty and nice.  ",
+	"about-p-4": "Owce Dwa is a place where tradition, modernity and closeness to nature combine, creating the background for an unforgettable stay. We hope that you will be happy to come back to us.",
 
 "rooms-title":"Rooms",
 "rooms-desc":"It is equipped with a double bed, a sofa bed, a wardrobe, a desk, a TV, a safe and a bathroom with a shower.",
@@ -116,6 +115,21 @@
 "message":"Message",
 "submit":"Submit",
 
-"cookie-bar":"This website uses cookies to ensure you get the best experience on our website platforms. By continuing to browse our website, you consent to our use of cookies."
+"cookie-bar":"This website uses cookies to ensure you get the best experience on our website platforms. By continuing to browse our website, you consent to our use of cookies.",
+
+"contactForm-1":"Thanks for the message!",
+"comeBack":"Comeback",
+
+
+"name_placeholder": "Name:",
+  "phone_placeholder": "Phone:",
+  "email_placeholder": "Email:",
+  "message_placeholder": "Message:",
+  "submit_button": "Submit",
+
+  "room-text":"In Owce Dwie you will find 12 cozy rooms that will make you feel comfortable during your stay. The location of the facility makes it an excellent base for both mountain trails and the city center - Krupówki. Our staff is ready to take care of every detail to make your stay unforgettable.",
+
+  "check_availability":"check availability"
 }
   
+
